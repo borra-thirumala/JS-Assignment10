@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var score = prompt("Enter score: ");
+        score>=90?alert("Excellent"):
+        score>=60?alert("good"):
+        alert("needs improvement");
+
+        var day = prompt("Enter day: ");
+        (day === "saturday" || day === "sunday")?alert("weekend"):(day === "monday" || day === "tuesday" || day ==="wednesday" || day==="thursday" || day==="friday")?alert("weekday"):alert("invalid day")
+
+        var str=prompt("Enter input string: ");
+        var str1="";
+        for (i=str.length-1;i>=0;i--){
+        str1 += str[i];
+        }
+        str1===str?alert("Palindorme"):alert("Not a palindrome")
+
+        var str=prompt("Enter string: ")
+        op=""
+        for(i=str.length-1;i>=0;i--) {
+        op+=str[i]
+        alert(op)
+        }
+    </script>
+</body>
+</html>
